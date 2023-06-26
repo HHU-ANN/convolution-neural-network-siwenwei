@@ -12,5 +12,5 @@ wandb/
 test/model.pth
 test/model-vgg.pth
 pth/model-vgg.pth
-pth/model.pth
+pth/model00.pth
 pth/model0.pth
