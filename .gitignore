@@ -1,0 +1,16 @@
+*.pyc
+__pycache__/
+#*.jpg
+_03_Convolution_Neural_Network/wConvolution_Neural_Network.py
+_03_Convolution_Neural_Network/model-vgg.pth
+_03_Convolution_Neural_Network/model.pth
+_03_Convolution_Neural_Network/alexnet1.py
+_03_Convolution_Neural_Network/alexnet_model.py
+venv/
+data/exp03/
+wandb/
+test/model.pth
+test/model-vgg.pth
+pth/model-vgg.pth
+pth/model.pth
+pth/model0.pth
