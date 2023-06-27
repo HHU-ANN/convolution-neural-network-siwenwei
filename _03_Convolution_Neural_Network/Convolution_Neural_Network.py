@@ -65,7 +65,18 @@ class Bottleneck(nn.Module):
 
 
 class ResNet(nn.Module):
+    """
+    __init__
+        block: 堆叠的基本模块
+        block_num: 基本模块堆叠个数,是一个list,对于resnet50=[3,4,6,3]
+        num_classes: 全连接之后的分类特征维度
 
+    _make_layer
+        block: 堆叠的基本模块
+        channel: 每个stage中堆叠模块的第一个卷积的卷积核个数，对resnet50分别是:64,128,256,512
+        block_num: 当期stage堆叠block个数
+        stride: 默认卷积步长
+    """
 
     def __init__(self, block, block_num, num_classes=10):
         super(ResNet, self).__init__()
