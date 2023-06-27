@@ -77,7 +77,7 @@ class ResNet(nn.Module):
         block_num: 当期stage堆叠block个数
         stride: 默认卷积步长
     """
-##11
+
     def __init__(self, block, block_num, num_classes=10):
         super(ResNet, self).__init__()
         self.in_channel = 64  # conv1的输出维度
