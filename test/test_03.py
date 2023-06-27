@@ -35,7 +35,7 @@ def test1():
 
 def test2():
     label, pred = test()
-    return label == pred
+    assert label == pred
 
 def test3():
     label, pred = test()
