@@ -3,8 +3,8 @@ import os
 import sys
 import random
 
-#os.system("sudo pip3 install torch")
-#os.system("sudo pip3 install torchvision")
+os.system("sudo pip3 install torch")
+os.system("sudo pip3 install torchvision")
 
 import torch
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -27,11 +27,11 @@ def test():
 
 def test0():
     label, pred = test()
-    return label == pred
+    assert label == pred
 
 def test1():
     label, pred = test()
-    return label == pred
+    assert label == pred
 
 def test2():
     label, pred = test()
@@ -39,39 +39,29 @@ def test2():
 
 def test3():
     label, pred = test()
-    return label == pred
+    assert label == pred
 
 def test4():
     label, pred = test()
-    return label == pred
+    assert label == pred
 
 def test5():
     label, pred = test()
-    return label == pred
+    assert label == pred
 
 def test6():
     label, pred = test()
-    return label == pred
+    assert label == pred
 
 def test7():
     label, pred = test()
-    return label == pred
+    assert label == pred
 
 def test8():
     label, pred = test()
-    return label == pred
+    assert label == pred
 
 def test9():
     label, pred = test()
-    return label == pred
+    assert label == pred
 
-print(test0())
-print(test1())
-print(test2())
-print(test3())
-print(test4())
-print(test5())
-print(test6())
-print(test7())
-print(test8())
-print(test9())

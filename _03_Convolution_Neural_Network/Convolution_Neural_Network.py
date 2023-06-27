@@ -3,8 +3,8 @@
 
 import os
 
-# os.system("sudo pip3 install torch")
-# os.system("sudo pip3 install torchvision")
+os.system("sudo pip3 install torch")
+os.system("sudo pip3 install torchvision")
 
 import torch
 import torch.nn as nn
@@ -13,15 +13,8 @@ import torchvision
 
 from torch.utils.data import DataLoader
 
-if torch.cuda.is_available():
-    device = torch.device("cuda:0")
-    print("使用GPU进行训练")
-else:
-    device = torch.device("cpu")
-    print("使用cpu进行训练")
 
 
-# todo Bottleneck
 class Bottleneck(nn.Module):
     """
     __init__
