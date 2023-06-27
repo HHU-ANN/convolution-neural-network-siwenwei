@@ -2,10 +2,11 @@
 __pycache__/
 #*.jpg
 _03_Convolution_Neural_Network/wConvolution_Neural_Network.py
-_03_Convolution_Neural_Network/model-vgg.pth
 _03_Convolution_Neural_Network/model.pth
 _03_Convolution_Neural_Network/alexnet1.py
 _03_Convolution_Neural_Network/alexnet_model.py
+_03_Convolution_Neural_Network/c1Convolution_Neural_Network.py
+_03_Convolution_Neural_Network/c2Convolution_Neural_Network.py
 venv/
 data/exp03/
 wandb/
@@ -14,3 +15,6 @@ test/model-vgg.pth
 pth/model-vgg.pth
 pth/model00.pth
 pth/model0.pth
+pth/best_model1.pth
+pth/goodmodel.pth
+pth/modelc.pth
